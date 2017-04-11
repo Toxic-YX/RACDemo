@@ -1,0 +1,8 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'RAC多任务处理' do
+pod 'ReactiveCocoa', '~> 2.5’
+pod 'MJExtension', '~> 3.0.13'
+
+end
