@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08D30DD293ADC5A421EC58BF /* libPods-RAC基础操作第一篇.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BB9DD5F1C0195851BFBF70 /* libPods-RAC基础操作第一篇.a */; };
+		59D7BCE11E9CC16800D7924B /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D7BCDF1E9CC16800D7924B /* TwoViewController.m */; };
+		59D7BCE61E9CC17600D7924B /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D7BCE41E9CC17600D7924B /* OneViewController.m */; };
+		59D7BD1A1E9DB7CE00D7924B /* Test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59D7BD191E9DB7CE00D7924B /* Test.plist */; };
+		59D7BD1D1E9DB8CC00D7924B /* TestItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D7BD1C1E9DB8CC00D7924B /* TestItem.m */; };
+		59DD1EE21E9B1B44009DE20C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DD1EE11E9B1B44009DE20C /* main.m */; };
+		59DD1EE51E9B1B44009DE20C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DD1EE41E9B1B44009DE20C /* AppDelegate.m */; };
+		59DD1EE81E9B1B44009DE20C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DD1EE71E9B1B44009DE20C /* ViewController.m */; };
+		59DD1EEB1E9B1B44009DE20C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DD1EE91E9B1B44009DE20C /* Main.storyboard */; };
+		59DD1EED1E9B1B44009DE20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DD1EEC1E9B1B44009DE20C /* Assets.xcassets */; };
+		59DD1EF01E9B1B44009DE20C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DD1EEE1E9B1B44009DE20C /* LaunchScreen.storyboard */; };
+		59DD1EFB1E9B1B44009DE20C /* RAC_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DD1EFA1E9B1B44009DE20C /* RAC_______Tests.m */; };
+		59DD1F061E9B1B44009DE20C /* RAC_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DD1F051E9B1B44009DE20C /* RAC_______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59DD1EF71E9B1B44009DE20C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59DD1ED51E9B1B44009DE20C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59DD1EDC1E9B1B44009DE20C;
+			remoteInfo = "RAC基础操作第一篇";
+		};
+		59DD1F021E9B1B44009DE20C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59DD1ED51E9B1B44009DE20C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59DD1EDC1E9B1B44009DE20C;
+			remoteInfo = "RAC基础操作第一篇";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53BB9DD5F1C0195851BFBF70 /* libPods-RAC基础操作第一篇.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAC基础操作第一篇.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DC3A0B32C5ABE2F6866A2D /* Pods-RAC基础操作第一篇.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC基础操作第一篇.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC基础操作第一篇/Pods-RAC基础操作第一篇.debug.xcconfig"; sourceTree = "<group>"; };
+		59D7BCDE1E9CC16800D7924B /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		59D7BCDF1E9CC16800D7924B /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		59D7BCE31E9CC17600D7924B /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		59D7BCE41E9CC17600D7924B /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		59D7BD191E9DB7CE00D7924B /* Test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Test.plist; sourceTree = "<group>"; };
+		59D7BD1B1E9DB8CC00D7924B /* TestItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestItem.h; sourceTree = "<group>"; };
+		59D7BD1C1E9DB8CC00D7924B /* TestItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestItem.m; sourceTree = "<group>"; };
+		59DD1EDD1E9B1B44009DE20C /* RAC基础操作第一篇.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC基础操作第一篇.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59DD1EE11E9B1B44009DE20C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59DD1EE31E9B1B44009DE20C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59DD1EE41E9B1B44009DE20C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59DD1EE61E9B1B44009DE20C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		59DD1EE71E9B1B44009DE20C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		59DD1EEA1E9B1B44009DE20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59DD1EEC1E9B1B44009DE20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59DD1EEF1E9B1B44009DE20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59DD1EF11E9B1B44009DE20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59DD1EF61E9B1B44009DE20C /* RAC基础操作第一篇Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC基础操作第一篇Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59DD1EFA1E9B1B44009DE20C /* RAC_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RAC_______Tests.m"; sourceTree = "<group>"; };
+		59DD1EFC1E9B1B44009DE20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59DD1F011E9B1B44009DE20C /* RAC基础操作第一篇UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC基础操作第一篇UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59DD1F051E9B1B44009DE20C /* RAC_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RAC_______UITests.m"; sourceTree = "<group>"; };
+		59DD1F071E9B1B44009DE20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD162442F7CF34015420DDF /* Pods-RAC基础操作第一篇.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC基础操作第一篇.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC基础操作第一篇/Pods-RAC基础操作第一篇.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59DD1EDA1E9B1B44009DE20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D30DD293ADC5A421EC58BF /* libPods-RAC基础操作第一篇.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59DD1EF31E9B1B44009DE20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59DD1EFE1E9B1B44009DE20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59DD1ED41E9B1B44009DE20C = {
+			isa = PBXGroup;
+			children = (
+				59DD1EDF1E9B1B44009DE20C /* RAC基础操作第一篇 */,
+				59DD1EF91E9B1B44009DE20C /* RAC基础操作第一篇Tests */,
+				59DD1F041E9B1B44009DE20C /* RAC基础操作第一篇UITests */,
+				59DD1EDE1E9B1B44009DE20C /* Products */,
+				B5DDA123024E1B306C599284 /* Pods */,
+				71E923AFA31ABDD25AD4B799 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59DD1EDE1E9B1B44009DE20C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59DD1EDD1E9B1B44009DE20C /* RAC基础操作第一篇.app */,
+				59DD1EF61E9B1B44009DE20C /* RAC基础操作第一篇Tests.xctest */,
+				59DD1F011E9B1B44009DE20C /* RAC基础操作第一篇UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59DD1EDF1E9B1B44009DE20C /* RAC基础操作第一篇 */ = {
+			isa = PBXGroup;
+			children = (
+				59DD1EE31E9B1B44009DE20C /* AppDelegate.h */,
+				59DD1EE41E9B1B44009DE20C /* AppDelegate.m */,
+				59DD1EE61E9B1B44009DE20C /* ViewController.h */,
+				59DD1EE71E9B1B44009DE20C /* ViewController.m */,
+				59DD1EE91E9B1B44009DE20C /* Main.storyboard */,
+				59DD1EEC1E9B1B44009DE20C /* Assets.xcassets */,
+				59DD1EEE1E9B1B44009DE20C /* LaunchScreen.storyboard */,
+				59DD1EF11E9B1B44009DE20C /* Info.plist */,
+				59DD1EE01E9B1B44009DE20C /* Supporting Files */,
+				59D7BCDE1E9CC16800D7924B /* TwoViewController.h */,
+				59D7BCDF1E9CC16800D7924B /* TwoViewController.m */,
+				59D7BCE31E9CC17600D7924B /* OneViewController.h */,
+				59D7BCE41E9CC17600D7924B /* OneViewController.m */,
+				59D7BD191E9DB7CE00D7924B /* Test.plist */,
+				59D7BD1B1E9DB8CC00D7924B /* TestItem.h */,
+				59D7BD1C1E9DB8CC00D7924B /* TestItem.m */,
+			);
+			path = "RAC基础操作第一篇";
+			sourceTree = "<group>";
+		};
+		59DD1EE01E9B1B44009DE20C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59DD1EE11E9B1B44009DE20C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59DD1EF91E9B1B44009DE20C /* RAC基础操作第一篇Tests */ = {
+			isa = PBXGroup;
+			children = (
+				59DD1EFA1E9B1B44009DE20C /* RAC_______Tests.m */,
+				59DD1EFC1E9B1B44009DE20C /* Info.plist */,
+			);
+			path = "RAC基础操作第一篇Tests";
+			sourceTree = "<group>";
+		};
+		59DD1F041E9B1B44009DE20C /* RAC基础操作第一篇UITests */ = {
+			isa = PBXGroup;
+			children = (
+				59DD1F051E9B1B44009DE20C /* RAC_______UITests.m */,
+				59DD1F071E9B1B44009DE20C /* Info.plist */,
+			);
+			path = "RAC基础操作第一篇UITests";
+			sourceTree = "<group>";
+		};
+		71E923AFA31ABDD25AD4B799 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53BB9DD5F1C0195851BFBF70 /* libPods-RAC基础操作第一篇.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5DDA123024E1B306C599284 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54DC3A0B32C5ABE2F6866A2D /* Pods-RAC基础操作第一篇.debug.xcconfig */,
+				DAD162442F7CF34015420DDF /* Pods-RAC基础操作第一篇.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59DD1EDC1E9B1B44009DE20C /* RAC基础操作第一篇 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59DD1F0A1E9B1B44009DE20C /* Build configuration list for PBXNativeTarget "RAC基础操作第一篇" */;
+			buildPhases = (
+				7A9FDEB0401A966E94B7D3C3 /* [CP] Check Pods Manifest.lock */,
+				59DD1ED91E9B1B44009DE20C /* Sources */,
+				59DD1EDA1E9B1B44009DE20C /* Frameworks */,
+				59DD1EDB1E9B1B44009DE20C /* Resources */,
+				CE94A3D2E0A23EAA4413E9C8 /* [CP] Embed Pods Frameworks */,
+				32B831A1A4CCA28AF2328CC3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RAC基础操作第一篇";
+			productName = "RAC基础操作第一篇";
+			productReference = 59DD1EDD1E9B1B44009DE20C /* RAC基础操作第一篇.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59DD1EF51E9B1B44009DE20C /* RAC基础操作第一篇Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59DD1F0D1E9B1B44009DE20C /* Build configuration list for PBXNativeTarget "RAC基础操作第一篇Tests" */;
+			buildPhases = (
+				59DD1EF21E9B1B44009DE20C /* Sources */,
+				59DD1EF31E9B1B44009DE20C /* Frameworks */,
+				59DD1EF41E9B1B44009DE20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59DD1EF81E9B1B44009DE20C /* PBXTargetDependency */,
+			);
+			name = "RAC基础操作第一篇Tests";
+			productName = "RAC基础操作第一篇Tests";
+			productReference = 59DD1EF61E9B1B44009DE20C /* RAC基础操作第一篇Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59DD1F001E9B1B44009DE20C /* RAC基础操作第一篇UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59DD1F101E9B1B44009DE20C /* Build configuration list for PBXNativeTarget "RAC基础操作第一篇UITests" */;
+			buildPhases = (
+				59DD1EFD1E9B1B44009DE20C /* Sources */,
+				59DD1EFE1E9B1B44009DE20C /* Frameworks */,
+				59DD1EFF1E9B1B44009DE20C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59DD1F031E9B1B44009DE20C /* PBXTargetDependency */,
+			);
+			name = "RAC基础操作第一篇UITests";
+			productName = "RAC基础操作第一篇UITests";
+			productReference = 59DD1F011E9B1B44009DE20C /* RAC基础操作第一篇UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59DD1ED51E9B1B44009DE20C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Rookie.YXiang;
+				TargetAttributes = {
+					59DD1EDC1E9B1B44009DE20C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					59DD1EF51E9B1B44009DE20C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59DD1EDC1E9B1B44009DE20C;
+					};
+					59DD1F001E9B1B44009DE20C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59DD1EDC1E9B1B44009DE20C;
+					};
+				};
+			};
+			buildConfigurationList = 59DD1ED81E9B1B44009DE20C /* Build configuration list for PBXProject "RAC基础操作第一篇" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59DD1ED41E9B1B44009DE20C;
+			productRefGroup = 59DD1EDE1E9B1B44009DE20C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59DD1EDC1E9B1B44009DE20C /* RAC基础操作第一篇 */,
+				59DD1EF51E9B1B44009DE20C /* RAC基础操作第一篇Tests */,
+				59DD1F001E9B1B44009DE20C /* RAC基础操作第一篇UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59DD1EDB1E9B1B44009DE20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D7BD1A1E9DB7CE00D7924B /* Test.plist in Resources */,
+				59DD1EF01E9B1B44009DE20C /* LaunchScreen.storyboard in Resources */,
+				59DD1EED1E9B1B44009DE20C /* Assets.xcassets in Resources */,
+				59DD1EEB1E9B1B44009DE20C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59DD1EF41E9B1B44009DE20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59DD1EFF1E9B1B44009DE20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32B831A1A4CCA28AF2328CC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC基础操作第一篇/Pods-RAC基础操作第一篇-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A9FDEB0401A966E94B7D3C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE94A3D2E0A23EAA4413E9C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC基础操作第一篇/Pods-RAC基础操作第一篇-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59DD1ED91E9B1B44009DE20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59DD1EE81E9B1B44009DE20C /* ViewController.m in Sources */,
+				59D7BCE61E9CC17600D7924B /* OneViewController.m in Sources */,
+				59D7BD1D1E9DB8CC00D7924B /* TestItem.m in Sources */,
+				59DD1EE51E9B1B44009DE20C /* AppDelegate.m in Sources */,
+				59DD1EE21E9B1B44009DE20C /* main.m in Sources */,
+				59D7BCE11E9CC16800D7924B /* TwoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59DD1EF21E9B1B44009DE20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59DD1EFB1E9B1B44009DE20C /* RAC_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59DD1EFD1E9B1B44009DE20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59DD1F061E9B1B44009DE20C /* RAC_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59DD1EF81E9B1B44009DE20C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59DD1EDC1E9B1B44009DE20C /* RAC基础操作第一篇 */;
+			targetProxy = 59DD1EF71E9B1B44009DE20C /* PBXContainerItemProxy */;
+		};
+		59DD1F031E9B1B44009DE20C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59DD1EDC1E9B1B44009DE20C /* RAC基础操作第一篇 */;
+			targetProxy = 59DD1F021E9B1B44009DE20C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59DD1EE91E9B1B44009DE20C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59DD1EEA1E9B1B44009DE20C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59DD1EEE1E9B1B44009DE20C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59DD1EEF1E9B1B44009DE20C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59DD1F081E9B1B44009DE20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59DD1F091E9B1B44009DE20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59DD1F0B1E9B1B44009DE20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54DC3A0B32C5ABE2F6866A2D /* Pods-RAC基础操作第一篇.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RAC基础操作第一篇/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rookie.YXiang.RAC-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59DD1F0C1E9B1B44009DE20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD162442F7CF34015420DDF /* Pods-RAC基础操作第一篇.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RAC基础操作第一篇/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rookie.YXiang.RAC-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		59DD1F0E1E9B1B44009DE20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RAC基础操作第一篇Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rookie.YXiang.RAC-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC基础操作第一篇.app/RAC基础操作第一篇";
+			};
+			name = Debug;
+		};
+		59DD1F0F1E9B1B44009DE20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RAC基础操作第一篇Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rookie.YXiang.RAC-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC基础操作第一篇.app/RAC基础操作第一篇";
+			};
+			name = Release;
+		};
+		59DD1F111E9B1B44009DE20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RAC基础操作第一篇UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rookie.YXiang.RAC-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RAC基础操作第一篇";
+			};
+			name = Debug;
+		};
+		59DD1F121E9B1B44009DE20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RAC基础操作第一篇UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rookie.YXiang.RAC-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RAC基础操作第一篇";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59DD1ED81E9B1B44009DE20C /* Build configuration list for PBXProject "RAC基础操作第一篇" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59DD1F081E9B1B44009DE20C /* Debug */,
+				59DD1F091E9B1B44009DE20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59DD1F0A1E9B1B44009DE20C /* Build configuration list for PBXNativeTarget "RAC基础操作第一篇" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59DD1F0B1E9B1B44009DE20C /* Debug */,
+				59DD1F0C1E9B1B44009DE20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59DD1F0D1E9B1B44009DE20C /* Build configuration list for PBXNativeTarget "RAC基础操作第一篇Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59DD1F0E1E9B1B44009DE20C /* Debug */,
+				59DD1F0F1E9B1B44009DE20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59DD1F101E9B1B44009DE20C /* Build configuration list for PBXNativeTarget "RAC基础操作第一篇UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59DD1F111E9B1B44009DE20C /* Debug */,
+				59DD1F121E9B1B44009DE20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59DD1ED51E9B1B44009DE20C /* Project object */;
+}

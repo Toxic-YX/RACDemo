@@ -1,0 +1,21 @@
+PODS:
+  - MJExtension (3.0.13)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - MJExtension (~> 3.0.13)
+  - ReactiveCocoa (~> 2.5)
+
+SPEC CHECKSUMS:
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+PODFILE CHECKSUM: 520a7dbfef6f55f2d0d29dcb63e5b7feeebcc36f
+
+COCOAPODS: 1.2.0
